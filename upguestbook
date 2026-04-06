@@ -1,0 +1,5 @@
+docker build -t us.icr.io/my-namespace/guestbook-app:v2 .
+docker push us.icr.io/my-namespace/guestbook-app:v2
+The push refers to repository [us.icr.io/my-namespace/guestbook-app]
+...
+v2: digest: sha256:efgh456 size: 120MB
