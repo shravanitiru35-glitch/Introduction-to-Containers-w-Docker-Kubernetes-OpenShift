@@ -1,0 +1,5 @@
+kubectl rollout history deployment guestbook
+deployment.apps/guestbook 
+REVISION  CHANGE-CAUSE
+1         Initial deployment
+2         Updated image for v2
