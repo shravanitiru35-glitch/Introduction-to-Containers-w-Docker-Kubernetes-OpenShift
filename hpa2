@@ -1,0 +1,4 @@
+kubectl get hpa -w
+NAME        REFERENCE             TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+guestbook   Deployment/guestbook  75%/50%   0         5         3          2m
+guestbook   Deployment/guestbook  60%/50%   0         5         4          3m
